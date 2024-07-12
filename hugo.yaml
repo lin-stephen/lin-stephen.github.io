@@ -1,6 +1,6 @@
-baseURL: https://stephenlin.gitlab.io/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: https://lin-stephen.github.io/
+languageCode: zh-tw
+title: Stphen 的軟體工程筆記
 theme: ["PaperMod"]
 
 services:
