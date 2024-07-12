@@ -3,9 +3,9 @@ languageCode: zh-tw
 title: Stphen 的軟體工程筆記
 theme: ["PaperMod"]
 
-services:
-  googleAnalytics:
-    ID: G-28NFLS9V38
+# services:
+#   googleAnalytics:
+#     ID: G-28NFLS9V38
 
 sitemap:
   changeFreq: ""
@@ -16,14 +16,21 @@ sitemap:
 menu:
   main:
     - identifier: categories
-      name: Categories
+      name: 分類
       url: /categories/
       weight: 10
     - identifier: tags
-      name: Tags
+      name: 標籤
       url: /tags/
       weight: 20
+
+module:
+  imports:
+    - path: faro-analytics
 
 params:
   env: production
   defaultTheme: auto
+  faro_analytics:
+    endpoint: 'https://faro-collector-prod-ap-southeast-1.grafana.net/collect/0acd36a457773d60bca858356603d3fc'
+    name: 'github blog'

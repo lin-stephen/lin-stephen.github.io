@@ -1,3 +1,6 @@
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "themes/faro-analytics"]
+	path = themes/faro-analytics
+	url = https://github.com/cbos/hugo-faro-analytics.git
