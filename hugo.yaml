@@ -1,0 +1,29 @@
+baseURL: https://stephenlin.gitlab.io/
+languageCode: en-us
+title: My New Hugo Site
+theme: ["PaperMod"]
+
+services:
+  googleAnalytics:
+    ID: G-28NFLS9V38
+
+sitemap:
+  changeFreq: ""
+  disable: false
+  filename: sitemap.xml
+  priority: -1
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+
+params:
+  env: production
+  defaultTheme: auto
