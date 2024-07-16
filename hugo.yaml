@@ -1,6 +1,6 @@
 baseURL: https://lin-stephen.github.io/
 languageCode: zh-tw
-title: Stphen 的軟體工程筆記
+title: Stephen 的軟體工程筆記
 theme: ["PaperMod"]
 
 # services:
@@ -15,13 +15,24 @@ sitemap:
 
 menu:
   main:
+    # - identifier: search
+    #   name: 🔍搜尋
+    #   url: search
+    #   weight: 1
+    # - identifier: posts
+    #   name: 文章
+    #   url: posts
+    # - identifier: archives
+    #   name: 時間軸
+    #   url: archives
+    #   weight: 5
     - identifier: categories
-      name: 分類
-      url: /categories/
+      name: 🗃️分類
+      url: categories
       weight: 10
     - identifier: tags
-      name: 標籤
-      url: /tags/
+      name: 🔖標籤
+      url: tags
       weight: 20
 
 module:
@@ -31,6 +42,7 @@ module:
 params:
   env: production
   defaultTheme: auto
+  author: Stephen
   faro_analytics:
     endpoint: 'https://faro-collector-prod-ap-southeast-1.grafana.net/collect/0acd36a457773d60bca858356603d3fc'
     name: 'github blog'
