@@ -1,7 +1,7 @@
 baseURL: https://lin-stephen.github.io/
 languageCode: zh-tw
-title: Stephen 的軟體工程筆記
-theme: ["PaperMod"]
+title: 操蟲師的獵人筆記
+theme: FixIt
 
 # services:
 #   googleAnalytics:
@@ -42,7 +42,10 @@ module:
 params:
   env: production
   defaultTheme: auto
-  author: Stephen
+  author:
+    name: Stephen Lin
   faro_analytics:
     endpoint: 'https://faro-collector-prod-ap-southeast-1.grafana.net/collect/0acd36a457773d60bca858356603d3fc'
     name: 'github blog'
+  footer:
+    license: '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>'
