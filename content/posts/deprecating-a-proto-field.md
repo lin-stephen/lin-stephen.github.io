@@ -3,7 +3,7 @@ title: 如何正確的淘汰 gRPC 的欄位
 subtitle:
 date: 2024-08-16T19:56:57+08:00
 slug: 103d0e3
-draft: true
+draft: false
 description: 提供兩個方法來淘汰 gRPC 欄位
 keywords:
   - gRPC
@@ -11,9 +11,9 @@ license:
 comment: false
 weight: 0
 tags:
-  - draft
+  - gRPC
 categories:
-  - draft
+  - 開發習慣
 hiddenFromHomePage: false
 hiddenFromSearch: false
 hiddenFromRss: false
