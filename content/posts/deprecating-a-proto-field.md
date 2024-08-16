@@ -6,6 +6,7 @@ slug: 103d0e3
 draft: true
 description: 提供兩個方法來淘汰 gRPC 欄位
 keywords:
+  - gRPC
 license:
 comment: false
 weight: 0
@@ -17,7 +18,7 @@ hiddenFromHomePage: false
 hiddenFromSearch: false
 hiddenFromRss: false
 hiddenFromRelated: false
-summary:
+summary: 在 proto 加掛 deprecate 屬性或者用 reserved 關鍵字來避免已經淘汰的欄位被誤用
 resources:
   - name: featured-image
     src: featured-image.jpg
