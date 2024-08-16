@@ -1,6 +1,6 @@
 ---
 title: 如何正確的淘汰 gRPC 的欄位
-subtitle:
+subtitle: 保持 proto 整潔的最佳實踐
 date: 2024-08-16T19:56:57+08:00
 slug: 103d0e3
 draft: false
@@ -12,13 +12,16 @@ comment: false
 weight: 0
 tags:
   - gRPC
+  - 軟體開發
+  - proto文件
+  - 最佳實踐
 categories:
-  - 開發習慣
+  - 最佳實踐
 hiddenFromHomePage: false
 hiddenFromSearch: false
 hiddenFromRss: false
 hiddenFromRelated: false
-summary: 在 proto 加掛 deprecate 屬性或者用 reserved 關鍵字來避免已經淘汰的欄位被誤用
+summary: 了解如何正確淘汰 gRPC 的欄位，避免未來開發中可能遇到的問題。文章探討了兩種方法：使用 `[deprecated = true]` 屬性進行軟性警告或使用 `reserved` 關鍵字進行更嚴格的管理。這些方法有助於保持欄位的唯一性並確保代碼庫的平滑過渡。
 resources:
   - name: featured-image
     src: featured-image.jpg
