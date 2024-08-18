@@ -2,7 +2,7 @@
 title: 如何正確的淘汰 gRPC 的欄位
 subtitle: 保持 proto 整潔的最佳實踐
 date: 2024-08-16T19:56:57+08:00
-slug: 103d0e3
+slug: deprecating-a-proto-field
 draft: false
 description: 提供兩個方法來淘汰 gRPC 欄位
 keywords:

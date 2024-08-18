@@ -2,7 +2,7 @@
 title: Cloud Summit 2024 印象最深刻的演講
 subtitle: 淺談 Cloud Native 生態系下工程師逐漸喪失的那些技能
 date: 2024-08-19T00:13:06+08:00
-slug: 7f2ad40
+slug: cloud-summit-2024-notes
 draft: false
 description: 這篇文章探討了雲原生生態系下，工程師因過度依賴工具而逐漸喪失底層技術技能的現象。透過深入分析現今架構的複雜化和簡化過程，強調學習與掌握底層技術的重要性，並提供相關資源和解決方案。
 keywords:
