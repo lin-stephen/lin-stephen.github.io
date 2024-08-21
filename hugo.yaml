@@ -2,6 +2,7 @@ baseURL: https://lin-stephen.github.io/
 languageCode: zh-tw
 title: 操蟲師的獵人筆記
 theme: FixIt
+enableRobotsTXT: true
 
 # services:
 #   googleAnalytics:
