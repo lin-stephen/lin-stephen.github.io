@@ -8,7 +8,7 @@ This is a Hugo static site blog repository using the FixIt theme. The site is pr
 
 ## Architecture
 
-- **Static Site Generator**: Hugo (version 0.147.6)
+- **Static Site Generator**: Hugo (version 0.147.9)
 - **Theme**: FixIt (located in `themes/FixIt/`)
 - **Additional Themes**: PaperMod and faro-analytics as submodules
 - **Content**: Blog posts stored in `content/posts/`
@@ -58,7 +58,7 @@ The main configuration is in `hugo.yaml`:
 ## Deployment
 
 The site automatically deploys to GitHub Pages when changes are pushed to the main branch. The workflow:
-1. Uses Hugo version 0.147.6
+1. Uses Hugo version 0.147.9
 2. Installs Dart Sass for SCSS compilation
 3. Builds with `--minify` flag
 4. Deploys to GitHub Pages
