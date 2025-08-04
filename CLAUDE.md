@@ -8,7 +8,7 @@ This is a Hugo static site blog repository using the FixIt theme. The site is pr
 
 ## Architecture
 
-- **Static Site Generator**: Hugo (version 0.147.9)
+- **Static Site Generator**: Hugo (version 0.148.2)
 - **Theme**: FixIt (located in `themes/FixIt/`)
 - **Additional Themes**: PaperMod and faro-analytics as submodules
 - **Content**: Blog posts stored in `content/posts/`
